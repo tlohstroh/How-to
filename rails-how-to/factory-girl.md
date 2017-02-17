@@ -1,3 +1,5 @@
+https://github.com/thoughtbot/factory_girl_rails
+
 # Install Factory Girl & Faker
 * * *
 
@@ -45,7 +47,7 @@ end
 # Example Factories
 
 ### Example Room Factory
-Let's create the factory for our Room model in a new file spec/factories/rooms.rb like this:
+spec/factories/rooms.rb:
 
 ```
 FactoryGirl.define do
@@ -76,7 +78,7 @@ FactoryGirl.define do
 end
 ```
 
-To use the factory, you can use any of the following statements inside your spec:
+You can use any of the following statements inside your spec:
 
 ```
 # `build` creates a Room object without saving
@@ -96,7 +98,7 @@ create_list :room, 2
 
 ### Example Profile Factory
 
-Let's create the factory for our Profile model in a new file spec/factories/profiles.rb like this:
+spec/factories/profiles.rb:
 
 ```
 FactoryGirl.define do
@@ -109,7 +111,7 @@ end
 ```
 ### Example User Factory
 
-Finally let's create the factory for the User model in a new file spec/factories/users.rb like this:
+spec/factories/users.rb:
 
 ```
 FactoryGirl.define do
