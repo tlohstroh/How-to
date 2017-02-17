@@ -2,7 +2,7 @@
 ##testing
 
 https://github.com/rspec/rspec-rails
-
+https://github.com/teamcapybara/capybara
 ```
 #Gemfile
 
