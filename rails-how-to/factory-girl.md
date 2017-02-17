@@ -1,3 +1,5 @@
+https://github.com/thoughtbot/factory_girl_rails
+
 # Install Factory Girl & Faker
 * * *
 
